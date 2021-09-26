@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Воронков Владислав Погода</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" href="../styles/style.css">
+    <link rel="icon" href=https://pbs.twimg.com/profile_images/939602858734968833/0Ovtk3uK.jpg> <!--Вы попросили добавть шрифт-->
+    <script src="../js/index.js"></script>
+    <script src="http://code.jquery.com/jquery-2.0.2.min.js"></script>
+</head>
+<body>
+    <div class="container">
+        <section class="main-city">
+            <div class="section__header main-city__header">
+                <h2 class="title">Погода здесь</h2>
+                <button class="button header__button">Обновить геолокацию</button>
+                <button class="button header__button_refresh">
+                    <img src="../img/refresh.png"></img>
+                </button>
+            </div>
+            <div class="main-city__container">
+                <div class="city__block">
+                    <h3 class="main-city__title">Saint Petersburg</h3>
+                    <div class="main-city__weather-container">
+                        <div class="main-city__weather-icon">
+                            <img src="../img/weather.png"></img>
+                        </div>
+                        <div class="main-city__weather">8°C</div>
+                    </div>
+                </div>
+                <div  class="city__block">
+                    <div class="weather-info">
+                        <div class="weather-info__title">Ветер</div>
+                        <div class="weather-info__text"> we ew ew eqw qwe qwe qw</div>
+                    </div>
+                    <div class="weather-info">
+                        <div class="weather-info__title">Облачность</div>
+                        <div class="weather-info__text"> we ew ew qw</div>
+                    </div>
+                    <div class="weather-info">
+                        <div class="weather-info__title">Deee</div>
+                        <div class="weather-info__text"> we ew ew eqw qwe qwe qw</div>
+                    </div>
+                    <div class="weather-info">
+                        <div class="weather-info__title">Deee</div>
+                        <div class="weather-info__text"> we ew ew eqw qwe qwe qw</div>
+                    </div>
+                    <div class="weather-info">
+                        <div class="weather-info__title">Deee</div>
+                        <div class="weather-info__text"> we ew ew eqw qwe qwe qw</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="cities">
+            <div class="section__header cities__header">
+                <h2 class="title">Избранное</h2>
+                <div class="cities__add">
+                    <input class="cities__add-input" type="text" placeholder="Добавить новый город">
+                    <button class="small-button cities__add-button">+</button>
+                </div>
+            </div>
+            <div class="cities__container">
+                <div class="city__block">
+                    <div class="city__header">
+                        <h3 class="city__title">Moscow</h3>
+                        <div class="city__weather">8°C</div>
+                        <div class="city__weather-icon">
+                            <img src="../img/weather.png"></img>
+                        </div>
+                        <button class="small-button city__delete">
+                            x
+                        </button>
+                    </div>
+                    <div class="weather-info">
+                        <div class="weather-info__title">Ветер</div>
+                        <div class="weather-info__text"> we ew ew eqw qwe qwe qw</div>
+                    </div>
+                    <div class="weather-info">
+                        <div class="weather-info__title">Облачность</div>
+                        <div class="weather-info__text"> we ew ew qw</div>
+                    </div>
+                    <div class="weather-info">
+                        <div class="weather-info__title">Deee</div>
+                        <div class="weather-info__text"> we ew ew eqw qwe qwe qw</div>
+                    </div>
+                    <div class="weather-info">
+                        <div class="weather-info__title">Deee</div>
+                        <div class="weather-info__text"> we ew ew eqw qwe qwe qw</div>
+                    </div>
+                    <div class="weather-info">
+                        <div class="weather-info__title">Deee</div>
+                        <div class="weather-info__text"> we ew ew eqw qwe qwe qw</div>
+                    </div>
+                </div>
+                <div class="city__block">
+                    <div class="city__header">
+                        <h3 class="city__title">Moscow</h3>
+                        <div class="city__weather">8°C</div>
+                        <div class="city__weather-icon">
+                            <img src="../img/weather.png"></img>
+                        </div>
+                        <button class="small-button city__delete">
+                            x
+                        </button>
+                    </div>
+                    <div class="weather-info">
+                        <div class="weather-info__title">Ветер</div>
+                        <div class="weather-info__text"> we ew ew eqw qwe qwe qw</div>
+                    </div>
+                    <div class="weather-info">
+                        <div class="weather-info__title">Облачность</div>
+                        <div class="weather-info__text"> we ew ew qw</div>
+                    </div>
+                    <div class="weather-info">
+                        <div class="weather-info__title">Deee</div>
+                        <div class="weather-info__text"> we ew ew eqw qwe qwe qw</div>
+                    </div>
+                    <div class="weather-info">
+                        <div class="weather-info__title">Deee</div>
+                        <div class="weather-info__text"> we ew ew eqw qwe qwe qw</div>
+                    </div>
+                    <div class="weather-info">
+                        <div class="weather-info__title">Deee</div>
+                        <div class="weather-info__text"> we ew ew eqw qwe qwe qw</div>
+                    </div>
+                </div>
+                <div class="city__block">
+                    <div class="city__header">
+                        <h3 class="city__title">Moscow</h3>
+                        <div class="city__weather">8°C</div>
+                        <div class="city__weather-icon">
+                            <img src="../img/weather.png"></img>
+                        </div>
+                        <button class="small-button city__delete">
+                            x
+                        </button>
+                    </div>
+                    <div class="weather-info">
+                        <div class="weather-info__title">Ветер</div>
+                        <div class="weather-info__text"> we ew ew eqw qwe qwe qw</div>
+                    </div>
+                    <div class="weather-info">
+                        <div class="weather-info__title">Облачность</div>
+                        <div class="weather-info__text"> we ew ew qw</div>
+                    </div>
+                    <div class="weather-info">
+                        <div class="weather-info__title">Deee</div>
+                        <div class="weather-info__text"> we ew ew eqw qwe qwe qw</div>
+                    </div>
+                    <div class="weather-info">
+                        <div class="weather-info__title">Deee</div>
+                        <div class="weather-info__text"> we ew ew eqw qwe qwe qw</div>
+                    </div>
+                    <div class="weather-info">
+                        <div class="weather-info__title">Deee</div>
+                        <div class="weather-info__text"> we ew ew eqw qwe qwe qw</div>
+                    </div>
+                </div>
+                <div class="city__block">
+                    <div class="city__header">
+                        <h3 class="city__title">Moscow</h3>
+                        <div class="city__weather">8°C</div>
+                        <div class="city__weather-icon">
+                            <img src="../img/weather.png"></img>
+                        </div>
+                        <button class="small-button city__delete">
+                            x
+                        </button>
+                    </div>
+                    <div class="weather-info">
+                        <div class="weather-info__title">Ветер</div>
+                        <div class="weather-info__text"> we ew ew eqw qwe qwe qw</div>
+                    </div>
+                    <div class="weather-info">
+                        <div class="weather-info__title">Облачность</div>
+                        <div class="weather-info__text"> we ew ew qw</div>
+                    </div>
+                    <div class="weather-info">
+                        <div class="weather-info__title">Deee</div>
+                        <div class="weather-info__text"> we ew ew eqw qwe qwe qw</div>
+                    </div>
+                    <div class="weather-info">
+                        <div class="weather-info__title">Deee</div>
+                        <div class="weather-info__text"> we ew ew eqw qwe qwe qw</div>
+                    </div>
+                    <div class="weather-info">
+                        <div class="weather-info__title">Deee</div>
+                        <div class="weather-info__text"> we ew ew eqw qwe qwe qw</div>
+                    </div>
+                </div>
+                <div class="city__block">
+                    <div class="city__header">
+                        <h3 class="city__title">Moscow</h3>
+                        <div class="city__weather">8°C</div>
+                        <div class="city__weather-icon">
+                            <img src="../img/weather.png"></img>
+                        </div>
+                        <button class="small-button city__delete">
+                            x
+                        </button>
+                    </div>
+                    <div class="weather-info">
+                        <div class="weather-info__title">Ветер</div>
+                        <div class="weather-info__text"> we ew ew eqw qwe qwe qw</div>
+                    </div>
+                    <div class="weather-info">
+                        <div class="weather-info__title">Облачность</div>
+                        <div class="weather-info__text"> we ew ew qw</div>
+                    </div>
+                    <div class="weather-info">
+                        <div class="weather-info__title">Deee</div>
+                        <div class="weather-info__text"> we ew ew eqw qwe qwe qw</div>
+                    </div>
+                    <div class="weather-info">
+                        <div class="weather-info__title">Deee</div>
+                        <div class="weather-info__text"> we ew ew eqw qwe qwe qw</div>
+                    </div>
+                    <div class="weather-info">
+                        <div class="weather-info__title">Deee</div>
+                        <div class="weather-info__text"> we ew ew eqw qwe qwe qw</div>
+                    </div>
+                </div>
+                <div class="city__block">
+                    <div class="city__header">
+                        <h3 class="city__title">Moscow</h3>
+                        <div class="city__weather">8°C</div>
+                        <div class="city__weather-icon">
+                            <img src="../img/weather.png"></img>
+                        </div>
+                        <button class="small-button city__delete">
+                            x
+                        </button>
+                    </div>
+                    <div class="weather-info">
+                        <div class="weather-info__title">Ветер</div>
+                        <div class="weather-info__text"> we ew ew eqw qwe qwe qw</div>
+                    </div>
+                    <div class="weather-info">
+                        <div class="weather-info__title">Облачность</div>
+                        <div class="weather-info__text"> we ew ew qw</div>
+                    </div>
+                    <div class="weather-info">
+                        <div class="weather-info__title">Deee</div>
+                        <div class="weather-info__text"> we ew ew eqw qwe qwe qw</div>
+                    </div>
+                    <div class="weather-info">
+                        <div class="weather-info__title">Deee</div>
+                        <div class="weather-info__text"> we ew ew eqw qwe qwe qw</div>
+                    </div>
+                    <div class="weather-info">
+                        <div class="weather-info__title">Deee</div>
+                        <div class="weather-info__text"> we ew ew eqw qwe qwe qw</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+</body>
+
+</html>
